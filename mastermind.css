@@ -50,16 +50,14 @@ header {
   align-items: center;
   height: 100%;
   min-height:400px;
+  padding: 10px;
 }
 
 #gameboard {
   background-color: #111222;
   height: 100%;
-  min-height:400px;
-  text-align:center;
-  border-top:10px;
-  border-bottom:10px;
-  border: 1px solid white;
+  min-height: 400px;
+  text-align: center;
 }
 
 /* Beginning of Instructions */
