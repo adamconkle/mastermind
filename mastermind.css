@@ -10,8 +10,23 @@ header {
   padding:10px;
 }
 
+main {
+  display:grid;
+  grid-template-areas:
+    "menu content";
+  grid-template-columns: 1fr 3fr;
+  gap: 5px;
+  background-color: #2196F3;
+  padding: 5px;
+}
 
+main > div.menu {
+  grid-area: menu;
+}
 
+main > div.content {
+  grid-area: content;
+}
 
 footer {
   background-color: #111222;
