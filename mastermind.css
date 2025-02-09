@@ -13,19 +13,19 @@ header {
 main {
   display:grid;
   grid-template-areas:
-    "menu content";
+    "game instructions";
   grid-template-columns: 1fr 3fr;
   gap: 5px;
   background-color: #2196F3;
   padding: 5px;
 }
 
-main > div.menu {
-  grid-area: menu;
+main > section.game {
+  grid-area: game;
 }
 
-main > div.content {
-  grid-area: content;
+main > section.instructions {
+  grid-area: instructions;
 }
 
 footer {
