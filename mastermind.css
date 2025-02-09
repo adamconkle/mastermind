@@ -37,17 +37,17 @@ header {
 
 
 #gamearea {
-  display:grid;
-  grid-template-columns: 10px auto 10px;
-  padding: 5px;
-  background-color: #1f1f1f;
+  display: grid;
+  grid-template-columns: 500px 10px 10px;
+  background-color: #e2e2e2;
   justify-content: center;
   align-content: center;
-  align-items:center;
+  align-items: center;
 }
 
 #gameboard {
   background-color: brown;
+  height: 200px;
 }
 
 /* Beginning of Instructions */
