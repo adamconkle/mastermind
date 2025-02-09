@@ -48,12 +48,13 @@ header {
   align-content: center;
   align-items: center;
   height: 100%;
-  min-height:600px;
+  min-height:400px;
 }
 
 #gameboard {
   background-color: brown;
   height: 100%;
+  min-height:400px;
   text-align:center;
 }
 
