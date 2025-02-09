@@ -49,7 +49,9 @@ header {
 
 #gameboard {
   background-color: brown;
-  height: 200px;
+  height: 100%;
+  min-height: 600px;
+  text-align:center;
 }
 
 /* Beginning of Instructions */
