@@ -53,10 +53,13 @@ header {
 }
 
 #gameboard {
-  background-color: brown;
+  background-color: #111222;
   height: 100%;
   min-height:400px;
   text-align:center;
+  border-top:10px;
+  border-bottom:10px;
+  border: 1px solid white;
 }
 
 /* Beginning of Instructions */
