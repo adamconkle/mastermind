@@ -43,6 +43,7 @@ header {
 #gamearea {
   display: grid;
   grid-template-columns: 60%;
+  grid-template-rows: auto;
   background-color: #e2e2e2;
   justify-content: center;
   align-content: center;
