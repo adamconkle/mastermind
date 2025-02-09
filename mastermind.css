@@ -3,6 +3,14 @@ body {
   padding:0;
 }
 
+a:link {
+  color:white;
+}
+
+a:hover {
+  color:yellow;
+}
+
 header {
   background-color: #111222;
   color:white;
@@ -74,6 +82,4 @@ footer {
   width: 100%;
 }
 
-a {
-  color:white
-}
+
