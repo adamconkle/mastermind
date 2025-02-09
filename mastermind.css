@@ -38,11 +38,9 @@ header {
 
 #gamearea {
   display:grid;
-  grid-template-areas:
-    "game";
-  grid-template-columns: 1fr;
+  grid-template-columns: 20% 60% 20%;
   padding: 5px;
-  background-color: #121212;
+  background-color: #1f1f1f;
   justify-content: center;
   align-content: center;
   align-items:center;
@@ -50,8 +48,6 @@ header {
 
 #gameboard {
   background-color: brown;
-  height: 100%;
-  width: 60%;
 }
 
 /* Beginning of Instructions */
