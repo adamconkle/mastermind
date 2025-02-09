@@ -8,6 +8,19 @@ header {
   color:white;
   padding:10px;
 }
+
+#instructions {
+  position:absolute; 
+  top: 0;
+  right: 0;
+  padding: 10px 20px;
+  margin-bottom: 5px;
+  background-color: #fff; 
+  color: #000; 
+  text-decoration: none; 
+  border-radius: 10px;
+}
+
 /* Modify the code below into one section if doing pop up instructions */
 main {
   display:grid;
