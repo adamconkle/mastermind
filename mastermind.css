@@ -43,6 +43,8 @@ header {
   justify-content: center;
   align-content: center;
   align-items: center;
+  height: 100%;
+  min-height:600px;
 }
 
 #gameboard {
