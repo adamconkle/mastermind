@@ -48,13 +48,11 @@ header {
   justify-content: center;
   align-content: center;
   align-items: center;
-  height: 80vh;
   padding: 10px;
 }
 
 #gameboard {
   background-color: #111222;
-  height: 98vh;
   text-align: center;
 }
 
