@@ -14,18 +14,19 @@ main {
   display:grid;
   grid-template-areas:
     "game instructions";
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 3fr 1fr;
   gap: 5px;
-  background-color: #2196F3;
   padding: 5px;
 }
 
 main > section.game {
   grid-area: game;
+  background-color: #857555;
 }
 
 main > section.instructions {
   grid-area: instructions;
+  background-color: #ffefca;
 }
 
 footer {
