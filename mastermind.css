@@ -8,7 +8,7 @@ header {
   color:white;
   padding:10px;
 }
-
+/* Modify the code below into one section if doing pop up instructions */
 main {
   display:grid;
   grid-template-areas:
@@ -27,6 +27,7 @@ main > section.instructions {
   grid-area: instructions;
   background-color: #ffefca;
 }
+/* Modify the code above into one section if doing pop up instructions */
 
 /* Beginning of Instructions */
 .popup {
@@ -39,7 +40,7 @@ main > section.instructions {
   align-items: center;
         }
 .popup-content {
-  background: #fff;
+  background: #111222;
   padding: 20px;
   border-radius: 5px;
   text-align: left;
