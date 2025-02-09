@@ -24,6 +24,7 @@ header {
   background-color: #111222;
   color:white;
   padding:20px;
+  height: 10vh;
   display:grid;
   grid-template-columns: auto auto;
   justify-content: space-between;
@@ -47,7 +48,7 @@ header {
   justify-content: center;
   align-content: center;
   align-items: center;
-  height: 98vh;
+  height: 80vh;
   padding: 10px;
 }
 
