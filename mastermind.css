@@ -6,7 +6,6 @@
 body {
   margin:0;
   padding:0;
-  width: 100%;
 }
 
 a:link {
@@ -26,7 +25,6 @@ header {
   color:white;
   padding:20px;
   height: 10vh;
-  width: 100%;
   display:grid;
   grid-template-columns: auto auto;
   justify-content: space-between;
@@ -87,7 +85,6 @@ footer {
   background-color: #111222;
   color:white;
   padding:10px;
-  width: 100%;
   text-align:center;
   position: absolute;
   bottom: 0;
