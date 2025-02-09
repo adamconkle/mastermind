@@ -35,26 +35,23 @@ header {
   border-radius: 10px;
 }
 
-/* Modify the code below into one section if doing pop up instructions */
-main {
+
+#gamearea {
   display:grid;
   grid-template-areas:
-    "game instructions";
-  grid-template-columns: 3fr 1fr;
-  gap: 5px;
+    "game";
+  grid-template-columns: 1fr;
   padding: 5px;
+  background-color: #121212;
+  justify-content: center;
+  align-content: center
 }
 
-main > section.game {
-  grid-area: game;
-  background-color: #857555;
+#gameboard {
+  background-color: brown;
+  height: 500px;
+  width: 500px;
 }
-
-main > section.instructions {
-  grid-area: instructions;
-  background-color: #ffefca;
-}
-/* Modify the code above into one section if doing pop up instructions */
 
 /* Beginning of Instructions */
 .popup {
