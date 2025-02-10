@@ -81,6 +81,78 @@ header {
         }
 /* End of Instructions */
 
+
+/* Start of Gameboard */
+
+ /* General styles for the grid layout */
+.grid-container {
+      display: grid;
+      grid-template-columns: 150px repeat(4, 100px) 100px; /* 1st column for headers, 4 for colors, 1 for approval */
+      gap: 5px;
+      margin-bottom: 20px;
+      align-items: center;
+      }
+
+/* Styling for grid items */
+.grid-item {
+      padding: 10px;
+      text-align: center;
+      border: 1px solid black;
+      border-radius: 200px;
+      transition: background-color 0.3s ease-in-out;
+      }
+
+/* Styling for the header cells ("Guess 1", "Guess 2", etc.) */
+.header {
+      font-weight: bold;
+      text-align: right;
+      border: none;
+      width: 120px;
+      }
+
+/* Styling for dropdowns inside cells */
+select {
+      width: 100%;
+      background-color: white;
+      border: 0px solid #999; /* 0px cool effect */
+      border-radius: 15px;
+      }
+
+/* Disabled dropdowns (gray out) */
+.disabled {
+      pointer-events: none;
+      opacity: 0.5;
+      }
+
+/* Initially hide answer row with black */
+.hidden-answer {
+      background-color: black !important;
+      color: black !important;
+      }
+
+/* Flash effect for wrong column guesses */
+@keyframes flash {
+      0% { background-color: black; }
+      50% { background-color: var(--flash-color); }
+      100% { background-color: white; }
+      }
+
+.flash {
+      animation: flash 3s infinite;
+      }
+
+/* Remove border from all cells in the checkbox column */
+.grid-container > .grid-item:nth-child(6n) {
+  border: none;
+  float:left;
+}
+
+/* End of Gameboard */
+
+
+
+
+
 footer {
   background-color: #111222;
   color:white;
